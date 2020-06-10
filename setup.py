@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='testpackage',
-    version='1.0.3',
+    version='1.0.4',
     packages=['testpackage'],
     license="MIT",
     author='Sophia',
