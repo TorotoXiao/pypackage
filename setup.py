@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='test_package',
+    name='testpackage',
     version='1.0.0',
     packages=[],
     license="MIT",
