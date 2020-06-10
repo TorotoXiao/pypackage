@@ -13,7 +13,7 @@ def encrypt(plain_text, key):
 
     cipher = AES.new(bkey, AES.MODE_CBC, iv)
 
-    encrypted = cipher.encrypt(pad(plain_text))
+    encrypted = cipher.encrypt(pad(plain_text).encode('utf-8'))
 
     return bytes.decode(base64.b64encode(iv + encrypted))
 
