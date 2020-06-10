@@ -9,7 +9,7 @@ setup(
     author_email="Sophia@qq.com",
     url='https://github.com/TorotoXiao/pypackage',
     description="test publish package to github",
-    install_requires=["pycrypto"],
+    install_requires=["pycryptodome"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
